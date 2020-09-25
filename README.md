@@ -25,7 +25,7 @@ Example:
 
 We also provided a testing scene TEAPOT. With the provided script, the scene could be rendered directly.
 
-The XML can be found here (link), an input normal map can be found here (link) and a binary (Windows) can be found here. 
+The XML can be found [here](scenes/teapot/teapot.xml), an input normal map can be found [here](scenes/teapot/normalmap/brush512.exr) and a binary (Windows) can be found [here](scenes/Release). 
 
 The command is also shown here:
 

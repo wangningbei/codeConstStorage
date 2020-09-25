@@ -57,6 +57,6 @@ Some other tips:
 
 The flakes per texel should be set as one, as this is required by the Jacobian computation. 
 
-The input normal map should have a range [-1,1]. One example of the normal map is included in the KETTLE folder.
+The input normal map should have a range [-1,1]. One example of the normal map is included in the TEAPOT folder.
 
 

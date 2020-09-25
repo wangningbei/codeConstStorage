@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+
+	Automatically converted from Wavefront OBJ
+
+-->
+
+<scene version="0.5.0">
+	<integrator type="path">
+		<integer name="maxDepth" value="24"/>
+		<integer name="rrDepth" value="10"/>
+	</integrator>
+	<emitter type="envmap" id="Lamp-light">
+		<string name="filename" value="normalmap/A.jpg"/>
+		<transform name="toWorld">
+			<matrix value="-0.290865 0.566393 0.771101 4.076245 0.955171 0.218391 0.199883 1.005454 -0.055189 0.794672 -0.604525 5.903862 0.000000 0.000000 0.000000 1.000000 "/>
+		</transform>
+		<float name="scale" value="1.000000"/>
+		<float name="samplingWeight" value="1.000000"/>
+	</emitter>
+	<shape type="serialized" id="teapot_mesh">
+		<string name="filename" value="meshes/teapot.serialized"/>
+		<integer name="shapeIndex" value="0"/>
+
+		<bsdf type="glintyconductor_constant">
+			<string name="distribution" value="beckmann"/>
+			<float name="alpha" value="0.1"/>
+			<string name="material" value="Cu"/>
+			<float name="intrinsic" value="0.001"/>
+			<float name="exampleScale" value="5"/>
+			<float name="textureScale" value="16"/>
+			<integer name="blendType" value="0"/>
+			<string name="nameNormalMap" value="normalmap\brush512.exr"/>
+		</bsdf>
+	</shape>
+	<shape type="sphere">
+		<transform name="toWorld">
+			<translate x="1" y="0" z="2"/>
+			<scale x="1" y="1" z="1"/>
+		</transform>
+		<float name="radius" value="0.05"/>
+
+		<emitter type="area" id="Area.002-arealight">
+			<rgb name="radiance" value="400.000000 400.000000 400.000000"/>
+			<float name="samplingWeight" value="1.000000"/>
+		</emitter>
+	</shape>
+	<shape type="sphere">
+		<transform name="toWorld">
+			<translate x="-1" y="0" z="2"/>
+			<scale x="1" y="1" z="1"/>
+		</transform>
+		<float name="radius" value="0.05"/>
+
+		<emitter type="area" id="Area.001-arealight">
+			<rgb name="radiance" value="400.000000 400.000000 400.000000"/>
+			<float name="samplingWeight" value="1.000000"/>
+		</emitter>
+	</shape>
+	<bsdf type="roughconductor" id="floor-material">
+		<string name="distribution" value="beckmann"/>
+		<float name="alpha" value="0.1"/>
+		<string name="material" value="Al"/>
+	</bsdf>
+
+	<shape type="ply" id="Plane-shape_0_2">
+		<string name="filename" value="meshes/Plane.ply"/>
+		<transform name="toWorld">
+			<translate x="0" y="0" z="-0.075"/>
+			<rotate x="1" angle="270"/>
+			<scale x="5" y="5" z="5"/>
+		</transform>
+
+		<ref name="bsdf" id="floor-material"/>
+	</shape>
+
+	<sensor type="perspective">
+		<float name="farClip" value="100"/>
+		<float name="focusDistance" value="3.53888"/>
+		<float name="fov" value="49.1343"/>
+		<string name="fovAxis" value="x"/>
+		<float name="nearClip" value="0.1"/>
+		<transform name="toWorld">
+
+			<lookat target="0.0851653, 1.04309, 1.65911" origin="0.127145, 1.61448, 2.47872" up="-0.0221887, 0.820663, -0.570981"/>
+		</transform>
+
+		<sampler type="stratified">
+			<integer name="sampleCount" value="1024"/>
+		</sampler>
+
+		<film type="hdrfilm">
+			<boolean name="attachLog" value="true"/>
+			<boolean name="banner" value="false"/>
+			<string name="componentFormat" value="float32"/>
+			<string name="fileFormat" value="openexr"/>
+			<integer name="height" value="720"/>
+			<boolean name="highQualityEdges" value="false"/>
+			<string name="pixelFormat" value="rgba"/>
+			<integer name="width" value="1280"/>
+
+			<rfilter type="gaussian">
+				<float name="stddev" value="0.5"/>
+			</rfilter>
+		</film>
+	</sensor>
+</scene>

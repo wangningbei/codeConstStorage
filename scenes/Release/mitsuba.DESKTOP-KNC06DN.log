@@ -1,0 +1,406 @@
+2020-08-05 17:05:15 INFO  main [mainwindow.cpp:80] Mitsuba version 0.5.0 (Windows, 64 bit), Copyright (c) 2014 Wenzel Jakob
+2020-08-05 17:05:15 INFO  main [mainwindow.cpp:83] Configured for RGB-based rendering
+2020-08-05 17:05:17 DEBUG main [WGLSession] Initializing WGL session
+2020-08-05 17:05:17 DEBUG main [WGLRenderer] Using an existing WGL context
+2020-08-05 17:05:17 DEBUG main [GLRenderer] OpenGL renderer : GeForce RTX 2060/PCIe/SSE2
+2020-08-05 17:05:17 DEBUG main [GLRenderer] OpenGL vendor   : NVIDIA Corporation
+2020-08-05 17:05:17 DEBUG main [GLRenderer] OpenGL version  : 4.6.0 NVIDIA 442.23
+2020-08-05 17:05:17 DEBUG main [GLRenderer] Capabilities: Framebuffers objects are supported.
+2020-08-05 17:05:17 DEBUG main [GLRenderer] Capabilities: GLSL is supported.
+2020-08-05 17:05:17 DEBUG main [GLRenderer] Capabilities: Floating point textures are supported.
+2020-08-05 17:05:17 DEBUG main [GLRenderer] Capabilities: Floating point color buffers are supported.
+2020-08-05 17:05:17 DEBUG main [GLRenderer] Capabilities: Fast buffer blitting is supported.
+2020-08-05 17:05:17 DEBUG main [GLRenderer] Capabilities: Multisample framebuffer objects are supported.
+2020-08-05 17:05:17 DEBUG main [GLRenderer] Capabilities: Vertex buffer objects are supported.
+2020-08-05 17:05:17 DEBUG main [GLRenderer] Capabilities: Geometry shaders are supported.
+2020-08-05 17:05:17 DEBUG main [GLRenderer] Capabilities: Custom texture filtering is supported.
+2020-08-05 17:05:17 DEBUG main [GLRenderer] Capabilities: Synchronization objects are supported.
+2020-08-05 17:05:17 DEBUG main [GLRenderer] Capabilities: Bindless rendering is supported.
+2020-08-05 17:05:17 DEBUG main [Thread] Spawning thread "prvw"
+2020-08-05 17:05:17 DEBUG prvw [WGLDevice] Initializing WGL device
+2020-08-05 17:05:17 DEBUG prvw [WGLRenderer] Initializing WGL renderer
+2020-08-05 17:05:17 DEBUG prvw [GLProgram] Uploading a GPU program : GPUProgram[name = 'Accumulation program']
+2020-08-05 17:05:17 DEBUG prvw [GLProgram] Uploading a GPU program : GPUProgram[name = 'Directional shadow map generator']
+2020-08-05 17:05:17 DEBUG prvw [GLProgram] Uploading a GPU program : GPUProgram[name = 'Paraboloid shadow map generator', maxVertices=4]
+2020-08-05 17:05:17 DEBUG prvw [GLProgram] Uploading a GPU program : GPUProgram[name = 'Cube/Hemicube shadow map generator (5/6 pass version)']
+2020-08-05 17:05:17 DEBUG prvw [GLProgram] Uploading a GPU program : GPUProgram[name = 'Cube shadow map generator (1 pass version)', maxVertices=18]
+2020-08-05 17:05:17 DEBUG prvw [GLProgram] Uploading a GPU program : GPUProgram[name = 'Hemicube shadow map generator (1 pass version)', maxVertices=15]
+2020-08-05 17:05:17 DEBUG main [GLProgram] Uploading a GPU program : GPUProgram[name = 'Tonemapper [Gamma]']
+2020-08-05 17:05:17 DEBUG main [GLProgram] Uploading a GPU program : GPUProgram[name = 'Tonemapper [Reinhard et al. 2002]']
+2020-08-05 17:05:17 DEBUG main [GLProgram] Uploading a GPU program : GPUProgram[name = 'Downsampling program']
+2020-08-05 17:05:17 DEBUG main [GLProgram] Uploading a GPU program : GPUProgram[name = 'Log-luminance program']
+2020-08-05 17:05:18 DEBUG main [Thread] Spawning thread "wrk0"
+2020-08-05 17:05:18 DEBUG main [Thread] Spawning thread "wrk1"
+2020-08-05 17:05:18 DEBUG main [Thread] Spawning thread "wrk2"
+2020-08-05 17:05:18 DEBUG main [Thread] Spawning thread "wrk3"
+2020-08-05 17:05:18 DEBUG main [Thread] Spawning thread "wrk4"
+2020-08-05 17:05:18 DEBUG main [Thread] Spawning thread "wrk5"
+2020-08-05 17:05:18 DEBUG main [Thread] Spawning thread "wrk6"
+2020-08-05 17:05:18 DEBUG main [Thread] Spawning thread "wrk7"
+2020-08-05 17:05:18 DEBUG main [Thread] Spawning thread "wrk8"
+2020-08-05 17:05:18 DEBUG main [Thread] Spawning thread "wrk9"
+2020-08-05 17:05:18 DEBUG main [Thread] Spawning thread "wrk10"
+2020-08-05 17:05:18 DEBUG main [Thread] Spawning thread "wrk11"
+2020-08-05 17:05:25 DEBUG main [Thread] Spawning thread "load"
+2020-08-05 17:05:25 INFO  load [sceneloader.cpp:114] Parsing scene description from "C:/research/2019project/const-storageGlintRelease/mitsuba/scenes/kettle/kettleblend.xml" ..
+2020-08-05 17:05:25 INFO  load [PluginManager] Loading plugin "plugins\path.dll" ..
+2020-08-05 17:05:25 INFO  load [PluginManager] Loading plugin "plugins\stratified.dll" ..
+2020-08-05 17:05:25 INFO  load [PluginManager] Loading plugin "plugins\gaussian.dll" ..
+2020-08-05 17:05:25 INFO  load [PluginManager] Loading plugin "plugins\hdrfilm.dll" ..
+2020-08-05 17:05:25 INFO  load [PluginManager] Loading plugin "plugins\perspective.dll" ..
+2020-08-05 17:05:25 INFO  load [PluginManager] Loading plugin "plugins\area.dll" ..
+2020-08-05 17:05:25 INFO  load [PluginManager] Loading plugin "plugins\sphere.dll" ..
+2020-08-05 17:05:25 INFO  load [PluginManager] Loading plugin "plugins\diffuse.dll" ..
+2020-08-05 17:05:25 INFO  load [PluginManager] Loading plugin "plugins\envmap.dll" ..
+2020-08-05 17:05:25 INFO  load [EnvironmentMap] Loading environment map "A.jpg"
+2020-08-05 17:05:25 INFO  load [MIPMap] Mapped MIP map cache file "C:/research/2019project/const-storageGlintRelease/mitsuba/scenes/kettle\normalmap/A.mip" into memory (49.0 MiB).
+2020-08-05 17:05:25 INFO  load [EnvironmentMap] Precomputing data structures for environment map sampling (24.5 MiB)
+2020-08-05 17:05:25 INFO  load [EnvironmentMap] Done (took 179 ms)
+2020-08-05 17:05:25 INFO  load [PluginManager] Loading plugin "plugins\roughconductor.dll" ..
+2020-08-05 17:05:25 INFO  load [spectrum.cpp:601] "Al.eta.spd": loaded a spectral power distribution with 56 entries (between 298.757050 and 885.601257 nm)
+2020-08-05 17:05:25 INFO  load [spectrum.cpp:601] "Al.k.spd": loaded a spectral power distribution with 56 entries (between 298.757050 and 885.601257 nm)
+2020-08-05 17:05:25 INFO  load [PluginManager] Loading plugin "plugins\ply.dll" ..
+2020-08-05 17:05:25 INFO  load [PLYLoader] Loading geometry from "Plane_0000_m000.ply" ..
+2020-08-05 17:05:25 INFO  load [PLYLoader] "Plane_0000_m000": Loaded 2 triangles, 4 vertices (120 B in 0 ms).
+2020-08-05 17:05:25 INFO  load [spectrum.cpp:601] "al.eta.spd": loaded a spectral power distribution with 56 entries (between 298.757050 and 885.601257 nm)
+2020-08-05 17:05:25 INFO  load [spectrum.cpp:601] "al.k.spd": loaded a spectral power distribution with 56 entries (between 298.757050 and 885.601257 nm)
+2020-08-05 17:05:25 INFO  load [PLYLoader] Loading geometry from "Untitled_018_0000_m000.ply" ..
+2020-08-05 17:05:25 INFO  load [PLYLoader] "Untitled_018_0000_m000": Loaded 512 triangles, 272 vertices (12.4 KiB in 0 ms).
+2020-08-05 17:05:25 INFO  load [spectrum.cpp:601] "al.eta.spd": loaded a spectral power distribution with 56 entries (between 298.757050 and 885.601257 nm)
+2020-08-05 17:05:25 INFO  load [spectrum.cpp:601] "al.k.spd": loaded a spectral power distribution with 56 entries (between 298.757050 and 885.601257 nm)
+2020-08-05 17:05:25 INFO  load [PLYLoader] Loading geometry from "Untitled_017_0000_m000.ply" ..
+2020-08-05 17:05:25 INFO  load [PLYLoader] "Untitled_017_0000_m000": Loaded 7168 triangles, 3696 vertices (170.6 KiB in 5 ms).
+2020-08-05 17:05:25 INFO  load [PluginManager] Loading plugin "plugins\plastic.dll" ..
+2020-08-05 17:05:25 INFO  load [PLYLoader] Loading geometry from "Untitled_016_0000_m000.ply" ..
+2020-08-05 17:05:25 INFO  load [PLYLoader] "Untitled_016_0000_m000": Loaded 192 triangles, 109 vertices (4.8 KiB in 0 ms).
+2020-08-05 17:05:25 INFO  load [PluginManager] Loading plugin "plugins\roughdielectric.dll" ..
+2020-08-05 17:05:25 INFO  load [PLYLoader] Loading geometry from "Untitled_015_0000_m000.ply" ..
+2020-08-05 17:05:25 INFO  load [PLYLoader] "Untitled_015_0000_m000": Loaded 2176 triangles, 1137 vertices (52.1 KiB in 1 ms).
+2020-08-05 17:05:25 INFO  load [PluginManager] Loading plugin "plugins\roughdiffuse.dll" ..
+2020-08-05 17:05:25 INFO  load [PLYLoader] Loading geometry from "Untitled_014_0000_m000.ply" ..
+2020-08-05 17:05:25 INFO  load [PLYLoader] "Untitled_014_0000_m000": Loaded 4704 triangles, 2409 vertices (111.6 KiB in 2 ms).
+2020-08-05 17:05:25 INFO  load [PluginManager] Loading plugin "plugins\glintyconductor_constant.dll" ..
+2020-08-05 17:05:28 INFO  load [spectrum.cpp:601] "Cu.eta.spd": loaded a spectral power distribution with 55 entries (between 302.400421 and 885.601257 nm)
+2020-08-05 17:05:28 INFO  load [spectrum.cpp:601] "Cu.k.spd": loaded a spectral power distribution with 55 entries (between 302.400421 and 885.601257 nm)
+2020-08-05 17:05:28 INFO  load [GlintyConductorConstant] Loading normal map "brush512.exr"
+2020-08-05 17:05:28 DEBUG load [glintyconductor_constant.cpp:235] †`Å˛	
+2020-08-05 17:05:29 DEBUG load [glintyconductor_constant.cpp:259] Start to precompute MinMax Table.
+2020-08-05 17:05:29 DEBUG load [glintyconductor_constant.cpp:269] The memory cost is 35.001465
+2020-08-05 17:05:29 INFO  load [PLYLoader] Loading geometry from "Untitled_013_0000_m000.ply" ..
+2020-08-05 17:05:29 INFO  load [PLYLoader] "Untitled_013_0000_m000": Loaded 17312 triangles, 8892 vertices (480.8 KiB in 20 ms).
+2020-08-05 17:05:29 INFO  load [PluginManager] Loading plugin "plugins\roughplastic.dll" ..
+2020-08-05 17:05:29 DEBUG load [rtrans.h:118] Loading 100x50x100 (1.9 MiB) rough transmittance samples from "C:/research\2019project\const-storageGlintRelease\mitsuba\cmake\binaries\Release\data/microfacet/beckmann.dat"
+2020-08-05 17:05:29 DEBUG load [rtrans.h:132] Precomputed data is available for the IOR range [1.0001, 4.0] and roughness range [0.0000, 4.0]
+2020-08-05 17:05:29 DEBUG load [rtrans.h:300] Reducing dimension from 3D to 2D (19.7 KiB), eta = 1.500000
+2020-08-05 17:05:29 DEBUG load [rtrans.h:300] Reducing dimension from 3D to 2D (19.7 KiB), eta = 0.666667
+2020-08-05 17:05:29 DEBUG load [rtrans.h:363] Reducing dimension from 2D to 1D (404 B), alpha = 0.100000
+2020-08-05 17:05:29 INFO  load [PLYLoader] Loading geometry from "Untitled_012_0000_m000.ply" ..
+2020-08-05 17:05:29 INFO  load [PLYLoader] "Untitled_012_0000_m000": Loaded 37424 triangles, 18957 vertices (882.9 KiB in 37 ms).
+2020-08-05 17:05:29 DEBUG load [rtrans.h:118] Loading 100x50x100 (1.9 MiB) rough transmittance samples from "C:/research\2019project\const-storageGlintRelease\mitsuba\cmake\binaries\Release\data/microfacet/beckmann.dat"
+2020-08-05 17:05:29 DEBUG load [rtrans.h:132] Precomputed data is available for the IOR range [1.0001, 4.0] and roughness range [0.0000, 4.0]
+2020-08-05 17:05:29 DEBUG load [rtrans.h:300] Reducing dimension from 3D to 2D (19.7 KiB), eta = 1.500000
+2020-08-05 17:05:29 DEBUG load [rtrans.h:300] Reducing dimension from 3D to 2D (19.7 KiB), eta = 0.666667
+2020-08-05 17:05:29 DEBUG load [rtrans.h:363] Reducing dimension from 2D to 1D (404 B), alpha = 0.100000
+2020-08-05 17:05:29 INFO  load [PLYLoader] Loading geometry from "Untitled_011_0000_m000.ply" ..
+2020-08-05 17:05:29 INFO  load [PLYLoader] "Untitled_011_0000_m000": Loaded 8288 triangles, 4201 vertices (195.6 KiB in 8 ms).
+2020-08-05 17:05:29 DEBUG load [rtrans.h:118] Loading 100x50x100 (1.9 MiB) rough transmittance samples from "C:/research\2019project\const-storageGlintRelease\mitsuba\cmake\binaries\Release\data/microfacet/beckmann.dat"
+2020-08-05 17:05:29 DEBUG load [rtrans.h:132] Precomputed data is available for the IOR range [1.0001, 4.0] and roughness range [0.0000, 4.0]
+2020-08-05 17:05:29 DEBUG load [rtrans.h:300] Reducing dimension from 3D to 2D (19.7 KiB), eta = 1.500000
+2020-08-05 17:05:29 DEBUG load [rtrans.h:300] Reducing dimension from 3D to 2D (19.7 KiB), eta = 0.666667
+2020-08-05 17:05:29 DEBUG load [rtrans.h:363] Reducing dimension from 2D to 1D (404 B), alpha = 0.100000
+2020-08-05 17:05:29 INFO  load [PLYLoader] Loading geometry from "Untitled_003_0000_m000.ply" ..
+2020-08-05 17:05:29 INFO  load [PLYLoader] "Untitled_003_0000_m000": Loaded 54784 triangles, 27650 vertices (1.5 MiB in 31 ms).
+2020-08-05 17:05:29 INFO  load [PLYLoader] Loading geometry from "Untitled_008_0000_m000.ply" ..
+2020-08-05 17:05:29 INFO  load [PLYLoader] "Untitled_008_0000_m000": Loaded 14080 triangles, 7042 vertices (385.1 KiB in 8 ms).
+2020-08-05 17:05:29 DEBUG load [rtrans.h:118] Loading 100x50x100 (1.9 MiB) rough transmittance samples from "C:/research\2019project\const-storageGlintRelease\mitsuba\cmake\binaries\Release\data/microfacet/beckmann.dat"
+2020-08-05 17:05:29 DEBUG load [rtrans.h:132] Precomputed data is available for the IOR range [1.0001, 4.0] and roughness range [0.0000, 4.0]
+2020-08-05 17:05:29 DEBUG load [rtrans.h:300] Reducing dimension from 3D to 2D (19.7 KiB), eta = 1.500000
+2020-08-05 17:05:29 DEBUG load [rtrans.h:300] Reducing dimension from 3D to 2D (19.7 KiB), eta = 0.666667
+2020-08-05 17:05:29 DEBUG load [rtrans.h:363] Reducing dimension from 2D to 1D (404 B), alpha = 0.100000
+2020-08-05 17:05:29 INFO  load [PLYLoader] Loading geometry from "Untitled_005_0000_m000.ply" ..
+2020-08-05 17:05:29 INFO  load [PLYLoader] "Untitled_005_0000_m000": Loaded 4144 triangles, 2130 vertices (98.5 KiB in 2 ms).
+2020-08-05 17:05:29 INFO  load [PLYLoader] Loading geometry from "Untitled_001_0000_m000.ply" ..
+2020-08-05 17:05:29 INFO  load [PLYLoader] "Untitled_001_0000_m000": Loaded 12464 triangles, 6234 vertices (292.2 KiB in 7 ms).
+2020-08-05 17:05:29 INFO  load [spectrum.cpp:601] "AL.eta.spd": loaded a spectral power distribution with 56 entries (between 298.757050 and 885.601257 nm)
+2020-08-05 17:05:29 INFO  load [spectrum.cpp:601] "AL.k.spd": loaded a spectral power distribution with 56 entries (between 298.757050 and 885.601257 nm)
+2020-08-05 17:05:29 INFO  load [PLYLoader] Loading geometry from "Untitled_007_0000_m000.ply" ..
+2020-08-05 17:05:29 INFO  load [PLYLoader] "Untitled_007_0000_m000": Loaded 5280 triangles, 2657 vertices (124.1 KiB in 2 ms).
+2020-08-05 17:05:29 INFO  load [PLYLoader] Loading geometry from "Untitled_0000_m000.ply" ..
+2020-08-05 17:05:29 INFO  load [PLYLoader] "Untitled_0000_m000": Loaded 66 triangles, 48 vertices (2.3 KiB in 0 ms).
+2020-08-05 17:05:29 INFO  load [PLYLoader] Loading geometry from "Untitled_006_0000_m000.ply" ..
+2020-08-05 17:05:29 INFO  load [PLYLoader] "Untitled_006_0000_m000": Loaded 2240 triangles, 1122 vertices (52.5 KiB in 1 ms).
+2020-08-05 17:05:29 INFO  load [PLYLoader] Loading geometry from "Untitled_009_0000_m000.ply" ..
+2020-08-05 17:05:29 INFO  load [PLYLoader] "Untitled_009_0000_m000": Loaded 2240 triangles, 1122 vertices (52.5 KiB in 2 ms).
+2020-08-05 17:05:29 INFO  load [PLYLoader] Loading geometry from "Untitled_002_0000_m000.ply" ..
+2020-08-05 17:05:29 INFO  load [PLYLoader] "Untitled_002_0000_m000": Loaded 2240 triangles, 1122 vertices (52.5 KiB in 1 ms).
+2020-08-05 17:05:29 INFO  load [KDTreeBase] Constructing a SAH kd-tree (175318 primitives) ..
+2020-08-05 17:05:29 DEBUG load [KDTreeBase] Creating a preliminary index list (684.8 KiB)
+2020-08-05 17:05:29 DEBUG load [KDTreeBase] Computed scene bounds in 6 ms
+2020-08-05 17:05:29 DEBUG load [KDTreeBase] 
+2020-08-05 17:05:29 DEBUG load [KDTreeBase] kd-tree configuration:
+2020-08-05 17:05:29 DEBUG load [KDTreeBase]    Traversal cost           : 15.00
+2020-08-05 17:05:29 DEBUG load [KDTreeBase]    Query cost               : 20.00
+2020-08-05 17:05:29 DEBUG load [KDTreeBase]    Empty space bonus        : 0.90
+2020-08-05 17:05:29 DEBUG load [KDTreeBase]    Max. tree depth          : 30
+2020-08-05 17:05:29 DEBUG load [KDTreeBase]    Scene bounding box (min) : [-10.5536, -7.09842, -0.003052]
+2020-08-05 17:05:29 DEBUG load [KDTreeBase]    Scene bounding box (max) : [5.86545, 9.32062, 1.5313]
+2020-08-05 17:05:29 DEBUG load [KDTreeBase]    Min-max bins             : 128
+2020-08-05 17:05:29 DEBUG load [KDTreeBase]    O(n log n) method        : use for <= 65536 primitives
+2020-08-05 17:05:29 DEBUG load [KDTreeBase]    Perfect splits           : yes
+2020-08-05 17:05:29 DEBUG load [KDTreeBase]    Retract bad splits       : yes
+2020-08-05 17:05:29 DEBUG load [KDTreeBase]    Stopping primitive count : 6
+2020-08-05 17:05:29 DEBUG load [KDTreeBase]    Build tree in parallel   : yes
+2020-08-05 17:05:29 DEBUG load [KDTreeBase] 
+2020-08-05 17:05:29 DEBUG load [Thread] Spawning thread "bld0"
+2020-08-05 17:05:29 DEBUG load [Thread] Spawning thread "bld1"
+2020-08-05 17:05:29 DEBUG load [Thread] Spawning thread "bld2"
+2020-08-05 17:05:29 DEBUG load [Thread] Spawning thread "bld3"
+2020-08-05 17:05:29 DEBUG load [Thread] Spawning thread "bld4"
+2020-08-05 17:05:29 DEBUG load [Thread] Spawning thread "bld5"
+2020-08-05 17:05:29 DEBUG load [Thread] Spawning thread "bld6"
+2020-08-05 17:05:29 DEBUG load [Thread] Spawning thread "bld7"
+2020-08-05 17:05:29 DEBUG load [Thread] Spawning thread "bld8"
+2020-08-05 17:05:29 DEBUG load [Thread] Spawning thread "bld9"
+2020-08-05 17:05:29 DEBUG load [Thread] Spawning thread "bld10"
+2020-08-05 17:05:29 DEBUG load [Thread] Spawning thread "bld11"
+2020-08-05 17:05:29 DEBUG bld10[Thread] Thread "bld10" has finished
+2020-08-05 17:05:29 DEBUG bld0 [Thread] Thread "bld0" has finished
+2020-08-05 17:05:29 DEBUG bld6 [Thread] Thread "bld6" has finished
+2020-08-05 17:05:29 DEBUG bld9 [Thread] Thread "bld9" has finished
+2020-08-05 17:05:29 DEBUG bld7 [Thread] Thread "bld7" has finished
+2020-08-05 17:05:29 DEBUG bld11[Thread] Thread "bld11" has finished
+2020-08-05 17:05:29 DEBUG bld8 [Thread] Thread "bld8" has finished
+2020-08-05 17:05:29 DEBUG bld5 [Thread] Thread "bld5" has finished
+2020-08-05 17:05:30 DEBUG bld2 [Thread] Thread "bld2" has finished
+2020-08-05 17:05:30 DEBUG bld4 [Thread] Thread "bld4" has finished
+2020-08-05 17:05:30 DEBUG bld1 [Thread] Thread "bld1" has finished
+2020-08-05 17:05:30 DEBUG bld3 [Thread] Thread "bld3" has finished
+2020-08-05 17:05:30 INFO  load [KDTreeBase] Finished -- took 900 ms.
+2020-08-05 17:05:30 DEBUG load [KDTreeBase] 
+2020-08-05 17:05:30 DEBUG load [KDTreeBase] Temporary memory statistics:
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]    Classification storage : 556.4 KiB
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]    Indirection entries    : 0 (0 B)
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]    Main thread:
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]       Left events   : 2 chunks (5.0 MiB)
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]       Right events  : 4 chunks (7.2 MiB)
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]       kd-tree nodes : 11 entries, 1 blocks (512.0 KiB)
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]       Indices       : 2 entries, 1 blocks (512.0 KiB)
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]    Worker thread 1:
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]       Left events   : 1 chunks (512.0 KiB)
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]       Right events  : 1 chunks (512.0 KiB)
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]       kd-tree nodes : 246 entries, 1 blocks (512.0 KiB)
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]       Indices       : 410 entries, 1 blocks (512.0 KiB)
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]    Worker thread 2:
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]       Left events   : 3 chunks (6.0 MiB)
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]       Right events  : 3 chunks (6.8 MiB)
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]       kd-tree nodes : 144650 entries, 3 blocks (1.5 MiB)
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]       Indices       : 261698 entries, 2 blocks (1024.0 KiB)
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]    Worker thread 3:
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]       Left events   : 2 chunks (2.3 MiB)
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]       Right events  : 3 chunks (3.7 MiB)
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]       kd-tree nodes : 64694 entries, 1 blocks (512.0 KiB)
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]       Indices       : 107623 entries, 1 blocks (512.0 KiB)
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]    Worker thread 4:
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]       Left events   : 3 chunks (9.1 MiB)
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]       Right events  : 5 chunks (7.6 MiB)
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]       kd-tree nodes : 155900 entries, 3 blocks (1.5 MiB)
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]       Indices       : 270611 entries, 3 blocks (1.5 MiB)
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]    Worker thread 5:
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]       Left events   : 3 chunks (4.0 MiB)
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]       Right events  : 5 chunks (3.6 MiB)
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]       kd-tree nodes : 76112 entries, 2 blocks (1024.0 KiB)
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]       Indices       : 131776 entries, 2 blocks (1024.0 KiB)
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]    Worker thread 6:
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]       Left events   : 0 chunks (0 B)
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]       Right events  : 0 chunks (0 B)
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]       kd-tree nodes : 0 entries, 0 blocks (0 B)
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]       Indices       : 0 entries, 0 blocks (0 B)
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]    Worker thread 7:
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]       Left events   : 0 chunks (0 B)
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]       Right events  : 0 chunks (0 B)
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]       kd-tree nodes : 0 entries, 0 blocks (0 B)
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]       Indices       : 0 entries, 0 blocks (0 B)
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]    Worker thread 8:
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]       Left events   : 0 chunks (0 B)
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]       Right events  : 0 chunks (0 B)
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]       kd-tree nodes : 0 entries, 0 blocks (0 B)
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]       Indices       : 0 entries, 0 blocks (0 B)
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]    Worker thread 9:
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]       Left events   : 0 chunks (0 B)
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]       Right events  : 0 chunks (0 B)
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]       kd-tree nodes : 0 entries, 0 blocks (0 B)
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]       Indices       : 0 entries, 0 blocks (0 B)
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]    Worker thread 10:
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]       Left events   : 0 chunks (0 B)
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]       Right events  : 0 chunks (0 B)
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]       kd-tree nodes : 0 entries, 0 blocks (0 B)
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]       Indices       : 0 entries, 0 blocks (0 B)
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]    Worker thread 11:
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]       Left events   : 0 chunks (0 B)
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]       Right events  : 0 chunks (0 B)
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]       kd-tree nodes : 0 entries, 0 blocks (0 B)
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]       Indices       : 0 entries, 0 blocks (0 B)
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]    Worker thread 12:
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]       Left events   : 0 chunks (0 B)
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]       Right events  : 0 chunks (0 B)
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]       kd-tree nodes : 0 entries, 0 blocks (0 B)
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]       Indices       : 0 entries, 0 blocks (0 B)
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]    Total: 67.5 MiB
+2020-08-05 17:05:30 DEBUG load [KDTreeBase] 
+2020-08-05 17:05:30 DEBUG load [KDTreeBase] Optimizing memory layout ..
+2020-08-05 17:05:30 DEBUG load [KDTreeBase] Finished -- took 16 ms.
+2020-08-05 17:05:30 DEBUG load [KDTreeBase] 
+2020-08-05 17:05:30 DEBUG load [KDTreeBase] Structural kd-tree statistics:
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]    Parallel work units         : 5
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]    Node storage cost           : 3.3 MiB
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]    Index storage cost          : 2.9 MiB
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]    Inner nodes                 : 214913
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]    Leaf nodes                  : 214914
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]    Nonempty leaf nodes         : 146639
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]    Leaf node histogram         : 0(68275) 1(2757) 2(3804) 3(14694) 
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]                                  4(31678) 5(29320) 6(48210) 7(5331) 
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]                                  8(3361) 9(1906) 10(1673) 11(1034) 
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]                                  12(652) 13(491) 14(443) 15(320) 
+2020-08-05 17:05:30 DEBUG load [KDTreeBase] 
+2020-08-05 17:05:30 DEBUG load [KDTreeBase] Qualitative kd-tree statistics:
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]    Retracted splits            : 10744
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]    Pruned primitives           : 0
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]    Largest leaf node           : 95 primitives
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]    Avg. prims/nonempty leaf    : 5.27
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]    Expected traversals/query   : 4.04
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]    Expected leaf visits/query  : 1.57
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]    Expected prim. visits/query : 3.51
+2020-08-05 17:05:30 DEBUG load [KDTreeBase]    Final cost                  : 130.70
+2020-08-05 17:05:30 DEBUG load [KDTreeBase] 
+2020-08-05 17:05:30 DEBUG load [ShapeKDTree] Precomputing triangle intersection information (8.0 MiB)
+2020-08-05 17:05:30 DEBUG load [ShapeKDTree] Finished -- took 7 ms.
+2020-08-05 17:05:30 DEBUG load [ShapeKDTree] 
+2020-08-05 17:05:30 DEBUG load [Thread] Thread "load" has finished
+2020-08-05 17:05:30 DEBUG prvw [GLProgram] Uploading a GPU program : GPUProgram[name = 'Background program']
+2020-08-05 17:05:31 INFO  prvw [PluginManager] Loading plugin "plugins\halton.dll" ..
+2020-08-05 17:05:31 DEBUG prvw [GLProgram] Uploading a GPU program : GPUProgram[name = 'vpl=AreaLightShader, bsdf=RoughDielectricShader, ds']
+2020-08-05 17:05:31 DEBUG prvw [GLProgram] Uploading a GPU program : GPUProgram[name = 'vpl=AreaLightShader, bsdf=RoughPlasticShader[ConstantSpectrumTextureShader, ConstantSpectrumTextureShader, ConstantFloatTextureShader], ds']
+2020-08-05 17:05:31 DEBUG prvw [GLProgram] Uploading a GPU program : GPUProgram[name = 'vpl=AreaLightShader, bsdf=RoughDiffuseShader[ConstantSpectrumTextureShader, ConstantFloatTextureShader], ds']
+2020-08-05 17:05:31 DEBUG prvw [GLProgram] Uploading a GPU program : GPUProgram[name = 'vpl=AreaLightShader, bsdf=SmoothPlasticShader[ConstantSpectrumTextureShader, ConstantSpectrumTextureShader], ds']
+2020-08-05 17:05:31 DEBUG prvw [GLProgram] Uploading a GPU program : GPUProgram[name = 'vpl=AreaLightShader, bsdf=SmoothDiffuseShader[ConstantSpectrumTextureShader], emitter=AreaLightShader, ds']
+2020-08-05 17:05:31 DEBUG prvw [GLProgram] Uploading a GPU program : GPUProgram[name = 'vpl=AreaLightShader, bsdf=RoughConductorShader[ConstantSpectrumTextureShader, ConstantFloatTextureShader, ConstantFloatTextureShader], ds']
+2020-08-05 17:05:31 DEBUG prvw [GLProgram] Uploading a GPU program : GPUProgram[name = 'vpl=AreaLightShader, bsdf=GlintyConductorConstantShader[ConstantSpectrumTextureShader, ConstantFloatTextureShader, ConstantFloatTextureShader], ds']
+2020-08-05 17:05:31 DEBUG prvw [GLProgram] Uploading a GPU program : GPUProgram[name = 'vpl=RoughConductorShader[ConstantSpectrumTextureShader, ConstantFloatTextureShader, ConstantFloatTextureShader], bsdf=RoughDielectricShader, ds']
+2020-08-05 17:05:31 DEBUG prvw [GLProgram] Uploading a GPU program : GPUProgram[name = 'vpl=RoughConductorShader[ConstantSpectrumTextureShader, ConstantFloatTextureShader, ConstantFloatTextureShader], bsdf=RoughPlasticShader[ConstantSpectrumTextureShader, ConstantSpectrumTextureShader, ConstantFloatTextureShader], ds']
+2020-08-05 17:05:31 DEBUG prvw [GLProgram] Uploading a GPU program : GPUProgram[name = 'vpl=RoughConductorShader[ConstantSpectrumTextureShader, ConstantFloatTextureShader, ConstantFloatTextureShader], bsdf=RoughDiffuseShader[ConstantSpectrumTextureShader, ConstantFloatTextureShader], ds']
+2020-08-05 17:05:31 DEBUG prvw [GLProgram] Uploading a GPU program : GPUProgram[name = 'vpl=RoughConductorShader[ConstantSpectrumTextureShader, ConstantFloatTextureShader, ConstantFloatTextureShader], bsdf=SmoothPlasticShader[ConstantSpectrumTextureShader, ConstantSpectrumTextureShader], ds']
+2020-08-05 17:05:31 DEBUG prvw [GLProgram] Uploading a GPU program : GPUProgram[name = 'vpl=RoughConductorShader[ConstantSpectrumTextureShader, ConstantFloatTextureShader, ConstantFloatTextureShader], bsdf=SmoothDiffuseShader[ConstantSpectrumTextureShader], emitter=AreaLightShader, ds']
+2020-08-05 17:05:31 DEBUG prvw [GLProgram] Uploading a GPU program : GPUProgram[name = 'vpl=RoughConductorShader[ConstantSpectrumTextureShader, ConstantFloatTextureShader, ConstantFloatTextureShader], bsdf=RoughConductorShader[ConstantSpectrumTextureShader, ConstantFloatTextureShader, ConstantFloatTextureShader], ds']
+2020-08-05 17:05:31 DEBUG prvw [GLProgram] Uploading a GPU program : GPUProgram[name = 'vpl=RoughConductorShader[ConstantSpectrumTextureShader, ConstantFloatTextureShader, ConstantFloatTextureShader], bsdf=GlintyConductorConstantShader[ConstantSpectrumTextureShader, ConstantFloatTextureShader, ConstantFloatTextureShader], ds']
+2020-08-05 17:05:31 DEBUG prvw [GLProgram] Uploading a GPU program : GPUProgram[name = 'vpl=EnvironmentMapShader, bsdf=RoughDielectricShader, ds']
+2020-08-05 17:05:31 DEBUG prvw [GLProgram] Uploading a GPU program : GPUProgram[name = 'vpl=EnvironmentMapShader, bsdf=RoughPlasticShader[ConstantSpectrumTextureShader, ConstantSpectrumTextureShader, ConstantFloatTextureShader], ds']
+2020-08-05 17:05:31 DEBUG prvw [GLProgram] Uploading a GPU program : GPUProgram[name = 'vpl=EnvironmentMapShader, bsdf=RoughDiffuseShader[ConstantSpectrumTextureShader, ConstantFloatTextureShader], ds']
+2020-08-05 17:05:31 DEBUG prvw [GLProgram] Uploading a GPU program : GPUProgram[name = 'vpl=EnvironmentMapShader, bsdf=SmoothPlasticShader[ConstantSpectrumTextureShader, ConstantSpectrumTextureShader], ds']
+2020-08-05 17:05:31 DEBUG prvw [GLProgram] Uploading a GPU program : GPUProgram[name = 'vpl=EnvironmentMapShader, bsdf=SmoothDiffuseShader[ConstantSpectrumTextureShader], emitter=AreaLightShader, ds']
+2020-08-05 17:05:31 DEBUG prvw [GLProgram] Uploading a GPU program : GPUProgram[name = 'vpl=EnvironmentMapShader, bsdf=RoughConductorShader[ConstantSpectrumTextureShader, ConstantFloatTextureShader, ConstantFloatTextureShader], ds']
+2020-08-05 17:05:31 DEBUG prvw [GLProgram] Uploading a GPU program : GPUProgram[name = 'vpl=EnvironmentMapShader, bsdf=GlintyConductorConstantShader[ConstantSpectrumTextureShader, ConstantFloatTextureShader, ConstantFloatTextureShader], ds']
+2020-08-05 17:05:31 DEBUG prvw [GLProgram] Uploading a GPU program : GPUProgram[name = 'vpl=GlintyConductorConstantShader[ConstantSpectrumTextureShader, ConstantFloatTextureShader, ConstantFloatTextureShader], bsdf=RoughDielectricShader, ds']
+2020-08-05 17:05:31 DEBUG prvw [GLProgram] Uploading a GPU program : GPUProgram[name = 'vpl=GlintyConductorConstantShader[ConstantSpectrumTextureShader, ConstantFloatTextureShader, ConstantFloatTextureShader], bsdf=RoughPlasticShader[ConstantSpectrumTextureShader, ConstantSpectrumTextureShader, ConstantFloatTextureShader], ds']
+2020-08-05 17:05:31 DEBUG prvw [GLProgram] Uploading a GPU program : GPUProgram[name = 'vpl=GlintyConductorConstantShader[ConstantSpectrumTextureShader, ConstantFloatTextureShader, ConstantFloatTextureShader], bsdf=RoughDiffuseShader[ConstantSpectrumTextureShader, ConstantFloatTextureShader], ds']
+2020-08-05 17:05:31 DEBUG prvw [GLProgram] Uploading a GPU program : GPUProgram[name = 'vpl=GlintyConductorConstantShader[ConstantSpectrumTextureShader, ConstantFloatTextureShader, ConstantFloatTextureShader], bsdf=SmoothPlasticShader[ConstantSpectrumTextureShader, ConstantSpectrumTextureShader], ds']
+2020-08-05 17:05:31 DEBUG prvw [GLProgram] Uploading a GPU program : GPUProgram[name = 'vpl=GlintyConductorConstantShader[ConstantSpectrumTextureShader, ConstantFloatTextureShader, ConstantFloatTextureShader], bsdf=SmoothDiffuseShader[ConstantSpectrumTextureShader], emitter=AreaLightShader, ds']
+2020-08-05 17:05:31 DEBUG prvw [GLProgram] Uploading a GPU program : GPUProgram[name = 'vpl=GlintyConductorConstantShader[ConstantSpectrumTextureShader, ConstantFloatTextureShader, ConstantFloatTextureShader], bsdf=RoughConductorShader[ConstantSpectrumTextureShader, ConstantFloatTextureShader, ConstantFloatTextureShader], ds']
+2020-08-05 17:05:31 DEBUG prvw [GLProgram] Uploading a GPU program : GPUProgram[name = 'vpl=GlintyConductorConstantShader[ConstantSpectrumTextureShader, ConstantFloatTextureShader, ConstantFloatTextureShader], bsdf=GlintyConductorConstantShader[ConstantSpectrumTextureShader, ConstantFloatTextureShader, ConstantFloatTextureShader], ds']
+2020-08-05 17:05:35 DEBUG main [Thread] Spawning thread "rend"
+2020-08-05 17:05:35 INFO  rend [SamplingIntegrator] Starting render job (1280x720, 1024 samples, 12 cores, SSE2 enabled) ..
+2020-08-05 17:05:36 WARN  rend [RenderJob] Rendering of scene "kettleblend.xml" did not complete successfully!
+2020-08-05 17:05:36 INFO  rend [RenderJob] Render time: 1.3100s
+2020-08-05 17:05:36 DEBUG rend [HDRFilm] Developing film ..
+2020-08-05 17:05:36 INFO  rend [HDRFilm] Writing image to "C:/research/2019project/const-storageGlintRelease/mitsuba/scenes/kettle\kettleblend.exr" ..
+2020-08-05 17:05:36 DEBUG rend [Bitmap] Writing a 1280x720 OpenEXR file
+2020-08-05 17:05:36 DEBUG rend [Thread] Thread "rend" has finished
+2020-08-05 17:05:37 DEBUG main [GLProgram] Freeing GPU program "vpl=AreaLightShader, bsdf=GlintyConductorConstantShader[ConstantSpectrumTextureShader, ConstantFloatTextureShader, ConstantFloatTextureShader], ds"
+2020-08-05 17:05:37 DEBUG main [GLProgram] Freeing GPU program "vpl=AreaLightShader, bsdf=RoughConductorShader[ConstantSpectrumTextureShader, ConstantFloatTextureShader, ConstantFloatTextureShader], ds"
+2020-08-05 17:05:37 DEBUG main [GLProgram] Freeing GPU program "vpl=AreaLightShader, bsdf=RoughDielectricShader, ds"
+2020-08-05 17:05:37 DEBUG main [GLProgram] Freeing GPU program "vpl=AreaLightShader, bsdf=RoughDiffuseShader[ConstantSpectrumTextureShader, ConstantFloatTextureShader], ds"
+2020-08-05 17:05:37 DEBUG main [GLProgram] Freeing GPU program "vpl=AreaLightShader, bsdf=RoughPlasticShader[ConstantSpectrumTextureShader, ConstantSpectrumTextureShader, ConstantFloatTextureShader], ds"
+2020-08-05 17:05:37 DEBUG main [GLProgram] Freeing GPU program "vpl=AreaLightShader, bsdf=SmoothDiffuseShader[ConstantSpectrumTextureShader], emitter=AreaLightShader, ds"
+2020-08-05 17:05:37 DEBUG main [GLProgram] Freeing GPU program "vpl=AreaLightShader, bsdf=SmoothPlasticShader[ConstantSpectrumTextureShader, ConstantSpectrumTextureShader], ds"
+2020-08-05 17:05:37 DEBUG main [GLProgram] Freeing GPU program "vpl=EnvironmentMapShader, bsdf=GlintyConductorConstantShader[ConstantSpectrumTextureShader, ConstantFloatTextureShader, ConstantFloatTextureShader], ds"
+2020-08-05 17:05:37 DEBUG main [GLProgram] Freeing GPU program "vpl=EnvironmentMapShader, bsdf=RoughConductorShader[ConstantSpectrumTextureShader, ConstantFloatTextureShader, ConstantFloatTextureShader], ds"
+2020-08-05 17:05:37 DEBUG main [GLProgram] Freeing GPU program "vpl=EnvironmentMapShader, bsdf=RoughDielectricShader, ds"
+2020-08-05 17:05:37 DEBUG main [GLProgram] Freeing GPU program "vpl=EnvironmentMapShader, bsdf=RoughDiffuseShader[ConstantSpectrumTextureShader, ConstantFloatTextureShader], ds"
+2020-08-05 17:05:37 DEBUG main [GLProgram] Freeing GPU program "vpl=EnvironmentMapShader, bsdf=RoughPlasticShader[ConstantSpectrumTextureShader, ConstantSpectrumTextureShader, ConstantFloatTextureShader], ds"
+2020-08-05 17:05:37 DEBUG main [GLProgram] Freeing GPU program "vpl=EnvironmentMapShader, bsdf=SmoothDiffuseShader[ConstantSpectrumTextureShader], emitter=AreaLightShader, ds"
+2020-08-05 17:05:37 DEBUG main [GLProgram] Freeing GPU program "vpl=EnvironmentMapShader, bsdf=SmoothPlasticShader[ConstantSpectrumTextureShader, ConstantSpectrumTextureShader], ds"
+2020-08-05 17:05:37 DEBUG main [GLProgram] Freeing GPU program "vpl=GlintyConductorConstantShader[ConstantSpectrumTextureShader, ConstantFloatTextureShader, ConstantFloatTextureShader], bsdf=GlintyConductorConstantShader[ConstantSpectrumTextureShader, ConstantFloatTextureShader, ConstantFloatTextureShader], ds"
+2020-08-05 17:05:37 DEBUG main [GLProgram] Freeing GPU program "vpl=GlintyConductorConstantShader[ConstantSpectrumTextureShader, ConstantFloatTextureShader, ConstantFloatTextureShader], bsdf=RoughConductorShader[ConstantSpectrumTextureShader, ConstantFloatTextureShader, ConstantFloatTextureShader], ds"
+2020-08-05 17:05:37 DEBUG main [GLProgram] Freeing GPU program "vpl=GlintyConductorConstantShader[ConstantSpectrumTextureShader, ConstantFloatTextureShader, ConstantFloatTextureShader], bsdf=RoughDielectricShader, ds"
+2020-08-05 17:05:37 DEBUG main [GLProgram] Freeing GPU program "vpl=GlintyConductorConstantShader[ConstantSpectrumTextureShader, ConstantFloatTextureShader, ConstantFloatTextureShader], bsdf=RoughDiffuseShader[ConstantSpectrumTextureShader, ConstantFloatTextureShader], ds"
+2020-08-05 17:05:37 DEBUG main [GLProgram] Freeing GPU program "vpl=GlintyConductorConstantShader[ConstantSpectrumTextureShader, ConstantFloatTextureShader, ConstantFloatTextureShader], bsdf=RoughPlasticShader[ConstantSpectrumTextureShader, ConstantSpectrumTextureShader, ConstantFloatTextureShader], ds"
+2020-08-05 17:05:37 DEBUG main [GLProgram] Freeing GPU program "vpl=GlintyConductorConstantShader[ConstantSpectrumTextureShader, ConstantFloatTextureShader, ConstantFloatTextureShader], bsdf=SmoothDiffuseShader[ConstantSpectrumTextureShader], emitter=AreaLightShader, ds"
+2020-08-05 17:05:37 DEBUG main [GLProgram] Freeing GPU program "vpl=GlintyConductorConstantShader[ConstantSpectrumTextureShader, ConstantFloatTextureShader, ConstantFloatTextureShader], bsdf=SmoothPlasticShader[ConstantSpectrumTextureShader, ConstantSpectrumTextureShader], ds"
+2020-08-05 17:05:37 DEBUG main [GLProgram] Freeing GPU program "vpl=RoughConductorShader[ConstantSpectrumTextureShader, ConstantFloatTextureShader, ConstantFloatTextureShader], bsdf=GlintyConductorConstantShader[ConstantSpectrumTextureShader, ConstantFloatTextureShader, ConstantFloatTextureShader], ds"
+2020-08-05 17:05:37 DEBUG main [GLProgram] Freeing GPU program "vpl=RoughConductorShader[ConstantSpectrumTextureShader, ConstantFloatTextureShader, ConstantFloatTextureShader], bsdf=RoughConductorShader[ConstantSpectrumTextureShader, ConstantFloatTextureShader, ConstantFloatTextureShader], ds"
+2020-08-05 17:05:37 DEBUG main [GLProgram] Freeing GPU program "vpl=RoughConductorShader[ConstantSpectrumTextureShader, ConstantFloatTextureShader, ConstantFloatTextureShader], bsdf=RoughDielectricShader, ds"
+2020-08-05 17:05:37 DEBUG main [GLProgram] Freeing GPU program "vpl=RoughConductorShader[ConstantSpectrumTextureShader, ConstantFloatTextureShader, ConstantFloatTextureShader], bsdf=RoughDiffuseShader[ConstantSpectrumTextureShader, ConstantFloatTextureShader], ds"
+2020-08-05 17:05:37 DEBUG main [GLProgram] Freeing GPU program "vpl=RoughConductorShader[ConstantSpectrumTextureShader, ConstantFloatTextureShader, ConstantFloatTextureShader], bsdf=RoughPlasticShader[ConstantSpectrumTextureShader, ConstantSpectrumTextureShader, ConstantFloatTextureShader], ds"
+2020-08-05 17:05:37 DEBUG main [GLProgram] Freeing GPU program "vpl=RoughConductorShader[ConstantSpectrumTextureShader, ConstantFloatTextureShader, ConstantFloatTextureShader], bsdf=SmoothDiffuseShader[ConstantSpectrumTextureShader], emitter=AreaLightShader, ds"
+2020-08-05 17:05:37 DEBUG main [GLProgram] Freeing GPU program "vpl=RoughConductorShader[ConstantSpectrumTextureShader, ConstantFloatTextureShader, ConstantFloatTextureShader], bsdf=SmoothPlasticShader[ConstantSpectrumTextureShader, ConstantSpectrumTextureShader], ds"
+2020-08-05 17:05:37 DEBUG main [GLProgram] Freeing GPU program "Background program"
+2020-08-05 17:05:37 DEBUG prvw [GLProgram] Freeing GPU program "Directional shadow map generator"
+2020-08-05 17:05:37 DEBUG prvw [GLProgram] Freeing GPU program "Paraboloid shadow map generator"
+2020-08-05 17:05:37 DEBUG prvw [GLProgram] Freeing GPU program "Cube/Hemicube shadow map generator (5/6 pass version)"
+2020-08-05 17:05:37 DEBUG prvw [GLProgram] Freeing GPU program "Cube shadow map generator (1 pass version)"
+2020-08-05 17:05:37 DEBUG prvw [GLProgram] Freeing GPU program "Hemicube shadow map generator (1 pass version)"
+2020-08-05 17:05:37 DEBUG prvw [GLProgram] Freeing GPU program "Accumulation program"
+2020-08-05 17:05:37 DEBUG prvw [WGLRenderer] Shutting down WGL Renderer
+2020-08-05 17:05:37 DEBUG prvw [WGLDevice] Shutting down WGL device
+2020-08-05 17:05:37 DEBUG prvw [Thread] Thread "prvw" has finished
+2020-08-05 17:05:37 DEBUG wrk8 [Thread] Thread "wrk8" has finished
+2020-08-05 17:05:37 DEBUG wrk9 [Thread] Thread "wrk9" has finished
+2020-08-05 17:05:37 DEBUG wrk3 [Thread] Thread "wrk3" has finished
+2020-08-05 17:05:37 DEBUG wrk4 [Thread] Thread "wrk4" has finished
+2020-08-05 17:05:37 DEBUG wrk6 [Thread] Thread "wrk6" has finished
+2020-08-05 17:05:37 DEBUG wrk1 [Thread] Thread "wrk1" has finished
+2020-08-05 17:05:37 DEBUG wrk2 [Thread] Thread "wrk2" has finished
+2020-08-05 17:05:37 DEBUG wrk7 [Thread] Thread "wrk7" has finished
+2020-08-05 17:05:37 DEBUG wrk0 [Thread] Thread "wrk0" has finished
+2020-08-05 17:05:37 DEBUG wrk5 [Thread] Thread "wrk5" has finished
+2020-08-05 17:05:37 DEBUG wrk11[Thread] Thread "wrk11" has finished
+2020-08-05 17:05:37 DEBUG wrk10[Thread] Thread "wrk10" has finished
+2020-08-05 17:05:37 DEBUG main [GLProgram] Freeing GPU program "Log-luminance program"
+2020-08-05 17:05:37 DEBUG main [GLProgram] Freeing GPU program "Downsampling program"
+2020-08-05 17:05:37 DEBUG main [GLProgram] Freeing GPU program "Tonemapper [Reinhard et al. 2002]"
+2020-08-05 17:05:37 DEBUG main [GLProgram] Freeing GPU program "Tonemapper [Gamma]"
+2020-08-05 17:05:37 DEBUG main [WGLSession] Shutting down WGL session
+2020-08-05 17:05:37 INFO  main [statistics.cpp:142] Statistics:
+------------------------------------------------------------
+ * Loaded plugins :
+    -  plugins\area.dll [Area light]
+    -  plugins\diffuse.dll [Smooth diffuse BRDF]
+    -  plugins\envmap.dll [Environment map]
+    -  plugins\gaussian.dll [Gaussian reconstruction filter]
+    -  plugins\glintyconductor_constant.dll [Glinty conductor BRDF]
+    -  plugins\halton.dll [Halton QMC sampler]
+    -  plugins\hdrfilm.dll [High dynamic range film]
+    -  plugins\path.dll [MI path tracer]
+    -  plugins\perspective.dll [Perspective camera]
+    -  plugins\plastic.dll [Smooth plastic BRDF]
+    -  plugins\ply.dll [PLY mesh loader]
+    -  plugins\roughconductor.dll [Rough conductor BRDF]
+    -  plugins\roughdielectric.dll [Rough dielectric BSDF]
+    -  plugins\roughdiffuse.dll [Rough diffuse BRDF]
+    -  plugins\roughplastic.dll [Rough plastic BRDF]
+    -  plugins\sphere.dll [Sphere intersection primitive]
+    -  plugins\stratified.dll [Stratified sampler]
+
+  * General :
+    -  Normal rays traced : 457.545 K
+    -  Shadow rays traced : 234.493 K
+
+  * Path tracer :
+    -  Average path length : 1.04 (233.87 K / 225.28 K)
+
+  * Texture system :
+    -  Filtered texture lookups : 0.00 % (0.00 of 525.25 K)
+
+  * VPL renderer :
+    -  Max. # of drawn triangles : 178.280 K
+    -  Pruned VPLs : 25.00 % (1.00 of 4.00)
+------------------------------------------------------------
